@@ -1,2 +1,2 @@
-# my-forth-rep
+# my-forth-repo
 test
