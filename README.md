@@ -1,7 +1,7 @@
 # my-forth-repo
 test
 import sys
-import jso
+import json
 from pathlib import Path
 
 FILE = Path("todos.json")
