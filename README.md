@@ -2,7 +2,7 @@
 test
 import sys
 import json
-from pathlib import Pat
+from pathlib import Path
 
 FILE = Path("todos.json")
 
