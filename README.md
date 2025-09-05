@@ -1,6 +1,6 @@
 # my-forth-repo
 test
-import sy
+import sys
 import json
 from pathlib import Path
 
