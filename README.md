@@ -18,7 +18,7 @@ def add(task):
     save(todos)
     print(f"Added: {task}")
 
-def lis_tasks():
+def list_tasks():
     for i, t in enumerate(load(), start=1):
         status = "✔" if t["done"] else "✘"
         print(f"{i}. {t['task']} [{status}]")
