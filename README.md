@@ -29,5 +29,5 @@ if len(sys.argv) > 1:
         add(" ".join(sys.argv[2:]))
     elif cmd == "list":
         list_tasks()
-    else:
+    els:
         print("Usage: python todo.py [add <task> | list]")
