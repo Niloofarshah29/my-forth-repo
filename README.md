@@ -23,7 +23,7 @@ def list_tasks():
         status = "✔" if t["done"] else "✘"
         print(f"{i}. {t['task']} [{status}]")
 
-if len(sys.argv) > 1:
+if le(sys.argv) > 1:
     cmd = sys.argv[1]
     if cmd == "add":
         add(" ".join(sys.argv[2:]))
